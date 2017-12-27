@@ -12,15 +12,15 @@
 2. Copying config files to site-available directory
 
 ```
-#cp 32_stylish_portal/site-available/* /etc/nignx/site-available
+#cp 32_stylish_portal/sites-available/* /etc/nignx/sites-available
 ```
 **_PS: There no need to edit or rewrite main /etc/nginx/nginx.conf file_**
 
 3. Creating symbol links for enabling nginx site configuration
 
 ```
-#ln -s /etc/nginx/site-available/opennet.ru /etc/nginx/site-enable
-#ln -s /etc/nginx/site-available/ubuntu.com /etc/nginx/site-enable
+#ln -s /etc/nginx/sites-available/opennet.ru /etc/nginx/sites-enabled
+#ln -s /etc/nginx/sites-available/ubuntu.com /etc/nginx/sites-enabled
 ```
 
 4. Restarting nginx service
