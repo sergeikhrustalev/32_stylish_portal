@@ -9,7 +9,7 @@
 #apt install nginx
 ```
 
-2. Copying config files to site-available directory
+2. Copying config files to sites-available directory
 
 ```
 #cp 32_stylish_portal/sites-available/* /etc/nginx/sites-available
