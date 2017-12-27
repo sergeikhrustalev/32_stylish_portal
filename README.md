@@ -1,5 +1,5 @@
 
-# Nginx reverse-proxy with static caching.
+# Nginx reverse-proxy with static content
 
 ## Setting up nginx debian/ubuntu way
 
