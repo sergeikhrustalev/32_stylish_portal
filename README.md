@@ -1,7 +1,7 @@
 
-Demonstration of nginx reverse-proxy with static caching.
+# Nginx reverse-proxy with static caching.
 
-# Setting up nginx debian/ubuntu way
+** Setting up nginx debian/ubuntu way **
 
 1. Installing nginx
 
@@ -14,7 +14,7 @@ Demonstration of nginx reverse-proxy with static caching.
 ```
 #cp 32_stylish_portal/site-available/* /etc/nignx/site-available
 ```
-**PS: There no need to edit or rewrite main /etc/nginx/nginx.conf file**
+*PS: There no need to edit or rewrite main /etc/nginx/nginx.conf file*
 
 3. Creating symbol links for enabling nginx site configuration
 
@@ -29,7 +29,7 @@ Demonstration of nginx reverse-proxy with static caching.
 #service nginx restart 
 ```
 
-# Checking results
+** Checking results **
 
 Visit [http://localhost:8081](http://localhost:8081) and [http://localhost:8082](http://localhost:8081) to see proxied version of the sites.
 
