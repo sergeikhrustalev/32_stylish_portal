@@ -1,4 +1,5 @@
-# Demonstration of nginx reverse-proxy with static caching.
+
+Demonstration of nginx reverse-proxy with static caching.
 
 # Setting up nginx debian/ubuntu way
 
@@ -13,7 +14,7 @@
 ```
 #cp 32_stylish_portal/site-available/* /etc/nignx/site-available
 ```
-PS: There no need to edit or rewrite main /etc/nginx/nginx.conf file 
+**PS: There no need to edit or rewrite main /etc/nginx/nginx.conf file**
 
 3. Creating symbol links for enabling nginx site configuration
 
