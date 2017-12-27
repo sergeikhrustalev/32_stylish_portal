@@ -3,7 +3,7 @@ server {
     listen 8082;
 
     location ~* styles.css {
-        alias /home/sergei/devman/32_stylish_portal/dist/style.css;
+        alias /path/to/dist/style.css;
     }
 
     location / {
