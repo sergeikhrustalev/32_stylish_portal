@@ -1,10 +1,36 @@
-# Shared CSS Library
+# Demonstration of nginx reverse-proxy with static caching.
 
-[TODO]
+# Setting up nginx debian/ubuntu way
 
-# How to Test
+1. Installing nginx
 
-[TODO]
+```
+#apt install nginx
+```
+
+2. Copying config files to site-available directory
+
+```
+#cp 32_stylish_portal/site-available/* /etc/nignx/site-available
+```
+PS: There no need to edit or rewrite main /etc/nginx/nginx.conf file 
+
+3. Creating symbol links for enabling nginx site configuration
+
+```
+#ln -s /etc/nginx/site-available/opennet.ru /etc/nginx/site-enable
+#ln -s /etc/nginx/site-available/ubuntu.com /etc/nginx/site-enable
+```
+
+4. Restarting nginx service
+
+```
+#service nginx restart 
+```
+
+# Checking results
+
+Visit [http://localhost:8081](http://localhost:8081) and [http://localhost:8082](http://localhost:8081) to see proxied version of the sites.
 
 # Project Goals
 
