@@ -1,7 +1,7 @@
 
 # Nginx reverse-proxy with static caching.
 
-** Setting up nginx debian/ubuntu way **
+## Setting up nginx debian/ubuntu way
 
 1. Installing nginx
 
@@ -29,7 +29,7 @@
 #service nginx restart 
 ```
 
-** Checking results **
+## Checking results
 
 Visit [http://localhost:8081](http://localhost:8081) and [http://localhost:8082](http://localhost:8081) to see proxied version of the sites.
 
