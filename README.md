@@ -12,7 +12,7 @@
 2. Copying config files to site-available directory
 
 ```
-#cp 32_stylish_portal/sites-available/* /etc/nignx/sites-available
+#cp 32_stylish_portal/sites-available/* /etc/nginx/sites-available
 ```
 **_PS: There no need to edit or rewrite main /etc/nginx/nginx.conf file_**
 
