@@ -31,7 +31,7 @@
 
 ## Checking results
 
-Visit [http://localhost:8081](http://localhost:8081) and [http://localhost:8082](http://localhost:8081) to see proxied version of the sites.
+Visit [http://localhost:8081](http://localhost:8081) and [http://localhost:8082](http://localhost:8082) to see proxied version of the sites.
 
 # Project Goals
 
