@@ -6,7 +6,7 @@
 1. Creating python virtual environment
 
 ```
-$python3 -m venv env
+$ python3 -m venv env
 $ . env/bin/activate
 ```
 
@@ -30,21 +30,21 @@ $ STYLE_CSS_PATH=/your/path/to/style.css envtpl < config-templates/ubuntu.com.tp
 4. Installing nginx
 
 ```
-#apt install nginx
+# apt install nginx
 ```
 
 5. Copying config files to sites-available directory
 
 ```
-#cp 32_stylish_portal/{opennet.ru,ubuntu.com} /etc/nginx/sites-available
+# cp 32_stylish_portal/{opennet.ru,ubuntu.com} /etc/nginx/sites-available
 ```
 **_PS: There are no need to edit or rewrite main /etc/nginx/nginx.conf file_**
 
 6. Creating symbol links for enabling nginx site configuration
 
 ```
-#ln -s /etc/nginx/sites-available/opennet.ru /etc/nginx/sites-enabled
-#ln -s /etc/nginx/sites-available/ubuntu.com /etc/nginx/sites-enabled
+# ln -s /etc/nginx/sites-available/opennet.ru /etc/nginx/sites-enabled
+# ln -s /etc/nginx/sites-available/ubuntu.com /etc/nginx/sites-enabled
 ```
 
 7. Restarting nginx service
