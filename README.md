@@ -18,7 +18,7 @@ $ pip install envtpl
 
 3. Generating config files
 
-STYLE_CSS_PATH valaible in a path where your style.css file from dist forder located.
+STYLE_CSS_PATH valaible is a path where your style.css file from dist forder located.
   
 ```
 $ STYLE_CSS_PATH=/your/path/to/style.css envtpl < config-templates/opennet.ru.tpl > opennet.ru
